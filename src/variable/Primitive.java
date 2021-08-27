@@ -30,6 +30,10 @@ public class Primitive {
         //double około ±1,79769313486231570E+308 (15 znaczących cyfr dziesiętnych)
         double doubleNUm = 1.2311212121212121221212121212;
 
+        double numA = 1.34;
+        double numB = 0.21;
+        System.out.println("1.34 - 0.21 = " + (numA - numB));
+
 
         //char 16b
         char a = 'a';
