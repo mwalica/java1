@@ -1,4 +1,4 @@
-package finalVar;
+package finalVar3;
 
 public class Numbers {
     int x = 23;
