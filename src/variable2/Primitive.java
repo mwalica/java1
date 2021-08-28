@@ -1,4 +1,6 @@
-package variable;
+package variable2;
+
+import java.awt.*;
 
 public class Primitive {
 
@@ -42,6 +44,26 @@ public class Primitive {
         System.out.println(a);
         System.out.println(un);
         System.out.println(a == un);
+
+        //primitives vs references
+        int numberA = 2;
+        int numberB = numberA;
+        System.out.println("numberA: " + numberA);
+        System.out.println("numberB: " + numberB);
+        System.out.println("------");
+        numberA = 4;
+        System.out.println("numberA: " + numberA);
+        System.out.println("numberB: " + numberB);
+
+        Point pointA = new Point(2, 5);
+        Point pointB = pointA;
+        System.out.println("PointA: " + pointA);
+        System.out.println("PointB: " + pointB);
+        System.out.println("====");
+        pointA.x = 10;
+        System.out.println("PointA: " + pointA);
+        System.out.println("PointB: " + pointB);
+
     }
 
 }
