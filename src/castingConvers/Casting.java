@@ -17,7 +17,14 @@ public class Casting {
         byte b = (byte) a;
 
 
-        System.out.println("Short " + a + " = byte " + b);
+        System.out.println("short " + a + " = byte " + b);
+
+        double d = 123.8734589379847598334583984579837453948573845;
+        int e = (int) d;
+        float f = (float) d;
+
+        System.out.println("double " + d + " = int " + e);
+        System.out.println("double " + d + " = float " + f);
 
     }
 }
