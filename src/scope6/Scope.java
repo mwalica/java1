@@ -1,4 +1,4 @@
-package scope;
+package scope6;
 
 public class Scope {
 
