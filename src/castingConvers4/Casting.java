@@ -1,4 +1,4 @@
-package castingConvers;
+package castingConvers4;
 
 public class Casting {
     public static void main(String[] args) {
