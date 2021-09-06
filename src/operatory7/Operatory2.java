@@ -1,4 +1,4 @@
-package operatory;
+package operatory7;
 
 public class Operatory2 {
     public static void main(String[] args) {

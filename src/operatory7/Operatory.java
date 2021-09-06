@@ -1,4 +1,4 @@
-package operatory;
+package operatory7;
 
 public class Operatory {
     //wartości char, byte i short są promowane do int
