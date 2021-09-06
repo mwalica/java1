@@ -13,7 +13,7 @@ public class Operatory {
         float e = 8.23F;
         double f = 9.11;
 
-        int result1 = a + b;
+        int result1 = a + b;//pomimo dodawania byte do short wynik jest int
         long result2 = c + d;
 
         float result3 = c + e;
