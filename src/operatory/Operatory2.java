@@ -1,6 +1,6 @@
-package temp;
+package operatory;
 
-public class ExampleVar {
+public class Operatory2 {
     public static void main(String[] args) {
         int a = 10;
         double b = 2.5;
@@ -20,5 +20,4 @@ public class ExampleVar {
         System.out.println(result4);
         System.out.println(result5);
     }
-
 }
